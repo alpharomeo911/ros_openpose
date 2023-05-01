@@ -61,7 +61,7 @@ Visualization Manager:
       Size (Pixels): 4
       Size (m): 0.01
       Style: Points
-      Topic: /camera/depth/color/points
+      Topic: /hsrb/head_rgbd_sensor/depth_registered/rectified_points
       Unreliable: false
       Use Fixed Frame: true
       Use rainbow: true

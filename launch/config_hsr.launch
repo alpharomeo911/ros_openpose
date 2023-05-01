@@ -6,6 +6,7 @@ Note: Do not run this file directly. Please call run.launch file instead.
 Date: 2019/10/08
 -->
 <launch>
+  <param name="/use_sim_time" value="true"/>
   <!-- rostopic to subscribe for color images -->
   <arg name="color_topic" default="/hsrb/head_rgbd_sensor/rgb/image_raw" />
 
